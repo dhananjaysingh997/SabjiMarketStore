@@ -123,7 +123,7 @@ margin-top:30px;
 
 #customers tr:nth-child(even){background-color: green;}
 
-#customers tr:hover {background-color: yellow;}
+#customers tr:hover {background-color: brown;}
 
 #customers th {
   padding-top: 12px;
@@ -149,7 +149,7 @@ margin-top:30px;
 
 #customers2 tr:nth-child(even){background-color: green;}
 
-#customers2 tr:hover {background-color: yellow;}
+#customers2 tr:hover {background-color: brown;}
 
 #customers2 th {
   padding-top: 12px;
