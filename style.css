@@ -1,0 +1,412 @@
+
+*{
+margin:0;
+padding:0;
+}
+
+.header
+{
+min-height:10vh;
+width:100%;
+background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vegetables.jpg);
+background-position:center;
+background-size:cover;
+position:relative;
+}
+nav
+{
+display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+}
+nav img
+{
+width:300px;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+ 
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+    
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.middle
+{
+width:100%;
+min-height:80vh;
+margin-top:5px;
+text-align:center;
+background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(freesgveg.jpg);
+background-position:center;
+background-size:cover;
+}
+.middle h1
+{
+padding-top:60px;
+font-size:80px;
+color:white;
+}
+.middle img
+{
+width:250px;
+height:200px;
+margin-top:30px;
+}
+.hero-btn
+{
+display:inline-block;
+text-decoration:none;
+margin-top:10px;
+color:white;
+border:1px solid white;
+padding: 12px 34px;
+font-size:13px;
+background-color:black;
+position:relative;
+cursor:pointer;
+}
+.hero-btn:hover
+{
+border:1px solid green;
+background:green;
+transition:1s;
+}
+.last
+{
+width:100%;
+min-height:110vh;
+font-size:30px;
+padding-top:20px;
+color:green;
+margin-top:10px;
+text-align:center;
+background-image:url(vegetables1.jpg);
+background-position:center;
+background-size:cover;
+}
+
+@media screen and (max-width: 700px) {
+.last
+{
+min-height:400vh;
+}
+}
+.Broccoli
+{
+margin-top:50px;
+height:200px;
+width:300px;
+margin-left:32px;
+border:2px solid grey;
+float:left;
+}
+.Broccoli-btn
+{
+display:inline-block;
+text-decoration:none;
+color:white;
+border:1px solid white;
+padding: 12px 114px;
+font-size:20px;
+background-color:grey;
+position:relative;
+cursor:pointer;
+float:left;
+margin-top:0px;
+margin-left:0px;
+}
+.Broccoli-btn:hover
+{
+border:1px solid green;
+background:green;
+transition:1s;
+}
+.tomato
+{
+margin-top:50px;
+height:200px;
+width:300px;
+margin-left:32px;
+border:2px solid grey;
+float:left;
+}
+
+.tomato-btn
+{
+display:inline-block;
+text-decoration:none;
+color:white;
+border:1px solid white;
+padding: 12px 118px;
+font-size:20px;
+background-color:grey;
+position:relative;
+cursor:pointer;
+float:left;
+margin-top:0px;
+margin-left:0px;
+}
+
+.tomato-btn:hover
+{
+border:1px solid green;
+background:green;
+transition:1s;
+}
+
+.cabbage
+{
+margin-top:50px;
+height:200px;
+width:300px;
+margin-left:32px;
+border:2px solid grey;
+float:left;
+}
+.cabbage-btn
+{
+display:inline-block;
+text-decoration:none;
+color:white;
+border:1px solid white;
+padding: 12px 114px;
+font-size:20px;
+background-color:grey;
+position:relative;
+cursor:pointer;
+float:left;
+margin-top:0px;
+margin-left:0px;
+}
+.cabbage-btn:hover
+{
+border:1px solid green;
+background:green;
+transition:1s;
+}
+.eggplant1
+{
+margin-top:50px;
+height:200px;
+width:300px;
+margin-left:32px;
+border:2px solid grey;
+float:left;
+
+}
+
+.eggplant1-btn
+{
+display:inline-block;
+text-decoration:none;
+color:white;
+border:1px solid white;
+padding: 12px 114px;
+font-size:20px;
+background-color:grey;
+position:relative;
+cursor:pointer;
+float:left;
+margin-top:0px;
+margin-left:0px;
+}
+
+.eggplant1-btn:hover
+{
+border:1px solid green;
+background:green;
+transition:1s;
+}
+@media screen and (max-width: 700px) {
+.tomato{ margin-top:60px;}
+.cabbage{ margin-top:60px;}
+.eggplant1{ margin-top:60px;}
+}
+
+.capsicum1
+{
+margin-top:60px;
+height:200px;
+width:300px;
+margin-left:32px;
+border:2px solid grey;
+float:left;
+}
+.capsicum1-btn
+{
+display:inline-block;
+text-decoration:none;
+color:white;
+border:1px solid white;
+padding: 12px 108px;
+font-size:20px;
+background-color:grey;
+position:relative;
+cursor:pointer;
+float:left;
+margin-top:0px;
+margin-left:0px;
+}
+.capsicum1-btn:hover
+{
+border:1px solid green;
+background:green;
+transition:1s;
+}
+.cauliflower
+{
+margin-top:60px;
+height:200px;
+width:300px;
+margin-left:32px;
+border:2px solid grey;
+float:left;
+
+}
+
+.cauliflower-btn
+{
+display:inline-block;
+text-decoration:none;
+color:white;
+border:1px solid white;
+padding: 12px 100px;
+font-size:20px;
+background-color:grey;
+position:relative;
+cursor:pointer;
+float:left;
+margin-top:0px;
+margin-left:0px;
+}
+
+.cauliflower-btn:hover
+{
+border:1px solid green;
+background:green;
+transition:1s;
+}
+
+.bittergourd
+{
+margin-top:60px;
+height:200px;
+width:300px;
+margin-left:32px;
+border:2px solid grey;
+float:left;
+}
+.bittergourd-btn
+{
+display:inline-block;
+text-decoration:none;
+color:white;
+border:1px solid white;
+padding: 12px 97px;
+font-size:20px;
+background-color:grey;
+position:relative;
+cursor:pointer;
+float:left;
+margin-top:0px;
+margin-left:0px;
+}
+.bittergourd-btn:hover
+{
+border:1px solid green;
+background:green;
+transition:1s;
+}
+
+.mushroom
+{
+margin-top:60px;
+height:200px;
+width:300px;
+margin-left:32px;
+border:2px solid grey;
+float:left;
+
+}
+
+.mushroom-btn
+{
+display:inline-block;
+text-decoration:none;
+color:white;
+border:1px solid white;
+padding: 12px 105px;
+font-size:20px;
+background-color:grey;
+position:relative;
+cursor:pointer;
+float:left;
+margin-top:0px;
+margin-left:0px;
+}
+
+.mushroom-btn:hover
+{
+border:1px solid green;
+background:green;
+transition:1s;
+}
+
+@media screen and (max-width: 700px) {
+.Broccoli-btn {padding: 12px 100px;}
+.tomato-btn {padding: 12px 100px;}
+.cabbage-btn {padding: 12px 100px;}
+.eggplant1-btn {padding: 12px 100px;}
+.capsicum1-btn {padding: 12px 100px;}
+.cauliflower-btn {padding: 12px 100px;}
+.bittergourd-btn {padding: 12px 88px;}
+.mushroom-btn {padding: 12px 88px;}
+}
+
+
