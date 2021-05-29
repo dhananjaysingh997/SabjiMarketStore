@@ -1,0 +1,803 @@
+
+*{
+margin:0;
+padding:0;
+}
+
+.header
+{
+min-height:10vh;
+width:100%;
+background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vegetables.jpg);
+background-position:center;
+background-size:cover;
+position:relative;
+}
+nav
+{
+display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+}
+nav img
+{
+width:300px;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+ 
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+    
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.middle
+{
+width:100%;
+min-height:130vh;
+margin-top:5px;
+text-align:center;
+background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(field2.jpg);
+background-position:center;
+background-size:cover;
+}
+.middle h1
+{
+padding-top:40px;
+font-size:60px;
+color:white;
+}
+
+@media screen and (max-width: 450px) {
+  .middle h1{font-size:40px;}
+  .middle { min-height:380vh;}
+}
+
+.baigan
+{
+float:left;
+margin-top:30px;
+margin-left:20px;
+}
+.baigan img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.baigan p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.baigan p:hover
+{ background-color:green;}
+.baigan a
+{
+text-decoration:none;}
+
+
+
+.shimla
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.shimla img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.shimla p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.shimla p:hover
+{ background-color:green;}
+.shimla a
+{
+text-decoration:none;}
+
+
+.karela
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.karela img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.karela p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.karela p:hover
+{ background-color:green;}
+.karela a
+{
+text-decoration:none;}
+
+
+.bhindhi
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.bhindhi img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.bhindhi p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.bhindhi p:hover
+{ background-color:green;}
+.bhindhi a
+{
+text-decoration:none;}
+
+
+
+.mashroom
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.mashroom img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.mashroom p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.mashroom p:hover
+{ background-color:green;}
+.mashroom a
+{
+text-decoration:none;}
+
+
+.loki
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.loki img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.loki p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.loki p:hover
+{ background-color:green;}
+.loki a
+{
+text-decoration:none;}
+
+.tamatar
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.tamatar img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.tamatar p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.tamatar p:hover
+{ background-color:green;}
+.tamatar a
+{
+text-decoration:none;}
+
+
+
+.pyaj
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.pyaj img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.pyaj p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.pyaj p:hover
+{ background-color:green;}
+.pyaj a
+{
+text-decoration:none;}
+
+
+.aaloo
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.aaloo img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.aaloo p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.aaloo p:hover
+{ background-color:green;}
+.aaloo a
+{
+text-decoration:none;}
+
+
+.springonion
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.springonion img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.springonion p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.springonion p:hover
+{ background-color:green;}
+.springonion a
+{
+text-decoration:none;}
+
+
+
+.palak
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.palak img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.palak p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.palak p:hover
+{ background-color:green;}
+.palak a
+{
+text-decoration:none;}
+
+
+.lahshun
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.lahshun img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.lahshun p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.lahshun p:hover
+{ background-color:green;}
+.lahshun a
+{
+text-decoration:none;}
+
+.adarak
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.adarak img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.adarak p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.adarak p:hover
+{ background-color:green;}
+.adarak a
+{
+text-decoration:none;}
+
+
+
+.greenchilli
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.greenchilli img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.greenchilli p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.greenchilli p:hover
+{ background-color:green;}
+.greenchilli a
+{
+text-decoration:none;}
+
+
+.greenbeans
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.greenbeans img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.greenbeans p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.greenbeans p:hover
+{ background-color:green;}
+.greenbeans a
+{
+text-decoration:none;}
+
+
+.mooli
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.mooli img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.mooli p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.mooli p:hover
+{ background-color:green;}
+.mooli a
+{
+text-decoration:none;}
+
+
+
+.gajar
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.gajar img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.gajar p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.gajar p:hover
+{ background-color:green;}
+.gajar a
+{
+text-decoration:none;}
+
+
+.barbati
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.barbati img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.barbati p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.barbati p:hover
+{ background-color:green;}
+.barbati a
+{
+text-decoration:none;}
+
+.aawla
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.aawla img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.aawla p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.aawla p:hover
+{ background-color:green;}
+.aawla a
+{
+text-decoration:none;}
+
+
+
+.broccoli
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.broccoli img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.broccoli p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.broccoli p:hover
+{ background-color:green;}
+.broccoli a
+{
+text-decoration:none;}
+
+
+.patal
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.patal img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.patal p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.patal p:hover
+{ background-color:green;}
+.patal a
+{
+text-decoration:none;}
+
+
+.pattagobhi
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.pattagobhi img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.pattagobhi p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.pattagobhi p:hover
+{ background-color:green;}
+.pattagobhi a
+{
+text-decoration:none;}
+
+
+
+.lalmirch
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.lalmirch img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.lalmirch p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.lalmirch p:hover
+{ background-color:green;}
+.lalmirch a
+{
+text-decoration:none;}
+
+
+.matar
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.matar img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.matar p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.matar p:hover
+{ background-color:green;}
+.matar a
+{
+text-decoration:none;}
+
+.kheera
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.kheera img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.kheera p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.kheera p:hover
+{ background-color:green;}
+.kheera a
+{
+text-decoration:none;}
+
+
+.phoolgobhi
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.phoolgobhi img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.phoolgobhi p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.phoolgobhi p:hover
+{ background-color:green;}
+.phoolgobhi a
+{
+text-decoration:none;}
+
+
+
+.kundari
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.kundari img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.kundari p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.kundari p:hover
+{ background-color:green;}
+.kundari a
+{
+text-decoration:none;}
+
+
+.nimbo
+{
+float:left;
+margin-left:20px;
+margin-top:30px;
+}
+.nimbo img
+{
+height:100px;
+width:130px;
+border:3px solid white;
+}
+.nimbo p
+{
+font-size:20px;
+color:white;
+border:2px solid white;
+}
+.nimbo p:hover
+{ background-color:green;}
+.nimbo a
+{
+text-decoration:none;}
